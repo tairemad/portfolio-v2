@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+
+ <!-- 
+  .-') _      ('-.             _  .-')     ('-.  _   .-')      ('-.           _ .-') _     ('-.                          ('-.              
+(  OO) )    ( OO ).-.        ( \( -O )  _(  OO)( '.( OO )_   ( OO ).-.      ( (  OO) )   ( OO ).-.                    _(  OO)             
+/     '._   / . --. /  ,-.-') ,------. (,------.,--.   ,--.) / . --. /       \     .'_   / . --. /  ,-.-')  ,--.     (,------. ,--.   ,--.
+|'--...__)  | \-.  \   |  |OO)|   /`. ' |  .---'|   `.'   |  | \-.  \        ,`'--..._)  | \-.  \   |  |OO) |  |.-')  |  .---'  \  `.'  / 
+'--.  .--'.-'-'  |  |  |  |  \|  /  | | |  |    |         |.-'-'  |  |       |  |  \  '.-'-'  |  |  |  |  \ |  | OO ) |  |    .-')     /  
+   |  |    \| |_.'  |  |  |(_/|  |_.' |(|  '--. |  |'.'|  | \| |_.'  |       |  |   ' | \| |_.'  |  |  |(_/ |  |`-' |(|  '--.(OO  \   /   
+   |  |     |  .-.  | ,|  |_.'|  .  '.' |  .--' |  |   |  |  |  .-.  |       |  |   / :  |  .-.  | ,|  |_.'(|  '---.' |  .--' |   /  /\_  
+   |  |     |  | |  |(_|  |   |  |\  \  |  `---.|  |   |  |  |  | |  |       |  '--'  /  |  | |  |(_|  |    |      |  |  `---.`-./  /.__) 
+   `--'     `--' `--'  `--'   `--' '--' `------'`--'   `--'  `--' `--'       `-------'   `--' `--'  `--'    `------'  `------'  `--'      
+    -->
+
+    <!--[if lt IE 6 ]> <html lang="en" class="ie6"> <![endif]-->
+    <!--[if IE 7 ]>    <html lang="en" class="ie7"> <![endif]-->
+    <!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]-->
+    <!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
+    <!--[if (gt IE 9)|!(IE)]><!--> 
+    <html class="no-js" lang="en"> 
+    <!--<![endif]-->
+    <head>
+    	<meta charset="UTF-8">
+    	<title>Tairema Dailey - Front-End Developer</title>
+      <meta name="google-site-verification" content="2W_irPlOxs65Bd9Spg3lQ5ZI5-typeRmz9IkNTl7JO0" />
+    	<meta name="description" content="Online portfolio for Tairema Dailey, a Boston based Front-End Developer.">
+    	<meta name="keywords" content="Tairema Dailey, Web Designer, Web Developer, HTML, CSS, CMS, PHP, Wordpress, Front End Developer, Boston, Massachusetts" />
+    	<meta name="author" content="Tairema Dailey" /> 
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
+    	<link rel="stylesheet" href="css/font-awesome.css" type="text/css" media="screen">
+      <link rel="stylesheet" type="text/css" href="css/animate.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar">
+    <!--[if lt IE 8]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chrome/">install Google Chrome </a> to improve your web experience.</p>
+        <![endif]-->
+        <nav role="navigation" class="navbar navbar-fixed-top bg-color">
+        	<!-- Brand and toggle get grouped for better mobile display -->
+        	<div class="navbar-header" style="min-height: 70px;">
+        		<button type="button" data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle">
+        			<span class="sr-only">Toggle navigation</span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        		</button>
+        		<a href="#home" class="navbar-brand smoothScroll"><img src="images/logo.png" alt="logo"></a>
+        	</div>
+        	<!-- Collection of nav links and other content for toggling -->
+        	<div class="collapse navbar-collapse">
+        		<ul class="nav navbar-nav navbar-right nspace">
+        			<li><a href="#home" class="smoothScroll">INTRO</a></li>
+        			<li><a href="#about" class="smoothScroll">ABOUT ME</a></li>
+        			<li><a href="#work" class="smoothScroll">MY WORK</a></li>
+        			<li><a href="#contact" class="smoothScroll">LETS TALK</a></li>
+        		</ul>
+        	</div>
+        </nav>
+
+        <section id="home" data-speed="6">
+        	<div class="container">
+        		<div class="row">
+        			<div class="col-md-4 wow slideInLeft animated" data-wow-delay=".1s">
+        				<img src="images/girl.png" alt="girl illustration" class="girl img-responsive hidden-sm hidden-xs">
+        			</div>
+        			<div class="col-md-8 intro wow slideInRight animated" data-wow-delay=".1s">
+        				<div class="welcomeText"></div>
+        				<p>My name is <b class="yellow">Tai</b>.</p>
+        				<p>I'm a <b class="yellow">Front-End Web Developer</b> </p>
+                		<p class="indent">based out of <b class="yellow">Boston, MA</b>.</p>
+              </div>
+              <div class="col-md-12">
+                <a href="#about" class="smoothScroll yellow-tooltip" data-toggle="tooltip" title="Scroll Down" data-placement="top"><img src="images/arrow.png" alt="scroll down" class="s-arrow img-responsive"></a>
+              </div>
+            </div>
+          </div>
+
+        </section>
+        <section id="about" data-speed="4" data-type="background">
+        	<div class="container">
+        		<div class="row">
+        			<div class="col-md-12 text-center wow fadeInRightBig animated" data-wow-delay=".1s">
+        				<h1 class="pagetitle">about me</h1>
+              </div>
+              <div class="col-md-12 wow bounceInLeft animated" data-wow-delay=".2s">
+                <p class="aInfo">Hello, my name is <span  class="yellow">Tairema Dailey</span> <em>pronounced (ty-ree-ma)</em> but I go by <span class="yellow">Tai</span>, I'm a front-end developer who designs and develops. I’m a web addict. I love everything about the web, except Internet Explorer. I love creating new things with <span class="yellow">HTML5, CSS3, PHP and Javascript</span>. Coding and bringing a design to life are my driving passions. Understanding how they work independently and implementing them, gives an extra creative flair to my work.</p>
+              </div>
+            </div>
+            <div class="row">
+             <div class="col-md-6 wow fadeInLeft animated" data-wow-delay=".3s">
+              <h4>my skills</h4>
+              <div class="progress progress-striped active">
+               <div class="progress-bar progress-bar-warning"  role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
+                HTML/CSS
+              </div>
+            </div>
+            <div class="progress progress-striped active">
+             <div class="progress-bar progress-bar-warning"  role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+              JavaScript/jQuery
+            </div>
+          </div>
+          <div class="progress progress-striped active">
+           <div class="progress-bar progress-bar-warning"  role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%" >
+            PHP/Wordpress
+          </div>
+        </div>
+        <div class="progress progress-striped active">
+         <div class="progress-bar progress-bar-warning"  role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+          Sass/Compass
+        </div>
+      </div>
+      <div class="progress progress-striped active">
+       <div class="progress-bar progress-bar-warning"  role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+        Bootstrap 
+      </div>
+    </div>
+    <div class="progress progress-striped active">
+      <div class="progress-bar progress-bar-warning"  role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
+        Photoshop/Illustrator
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 wow fadeInRight animated" data-wow-delay=".4s">
+    <h4>Random Things...</h4>
+    <ul class="things">
+     <li>Love to cook</li>	
+     <li>Addicted to Starbucks</li>
+     <li>I'm a TV junkie</li>
+     <li>I try to read more than 50 books a year</li>
+     <li>Rather listen to an audiobook than music while I travel</li>
+     <li>Love all things supernatural</li>
+     <li>Only drink flavored coffee with lots of flavored cream and splenda</li>
+     <li>Even though I own a Mac, I am team Switzerland in the Mac vs PC debate</li>
+   </ul>
+ </div>
+</div>
+<div class="row">
+ <div class="col-md-12 text-center" style="margin-top: 80px;">
+  <a href="downloads/tdailey_resumeR.pdf" target="_blank" class="tSpace" role="button">Download My Resume</a>
+</div>
+</div>
+</div>
+</section>
+
+<section id="work" data-speed="4">
+ <div class="container">
+  <div class="row">
+   <div class="col-md-12 text-center wow bounceInRight animated" data-wow-delay=".2s" style="margin-bottom:35px;">
+    <h1 class="pagetitle">my work</h1>
+  </div>
+</div>
+<div class="works">
+  <div class="row">
+   <div class="col-sm-6 col-md-4 wow fadeInUp animated">
+    <div class="view">
+     <a href="#" class="info" data-desc="1"><img src="images/work/thumbs/cms_thumb.jpg" class="img-responsive" alt="custom cms thumbnail"/></a>
+   </div>
+ </div> <!-- end col-xs6 -->
+ <div class="col-sm-6 col-md-4 wow fadeInUp animated" data-wow-delay=".1s">
+  <div class="view">
+   <a href="#" class="info" data-desc="2"><img src="images/work/thumbs/pc_thumb.jpg" class="img-responsive" alt="pink candy website thumbnail"/></a>
+ </div>
+</div> <!-- end col-xs6 -->
+<div class="col-sm-6 col-md-4 wow fadeInUp animated" data-wow-delay=".2s">
+  <div class="view">
+   <a href="#" class="info" data-desc="3"><img src="images/work/thumbs/pcgg_thumb.jpg" class="img-responsive" alt="pink candy gallery thumbnail"/></a>
+ </div>
+</div> <!-- end col-xs6 -->
+</div> <!-- end row -->
+<!--  next set of rows -->
+<div class="row">
+ <div class="col-sm-6 col-md-4 wow fadeInUp animated" data-wow-delay=".3s">
+  <div class="view">
+   <a href="#" class="info" data-desc="4"><img src="images/work/thumbs/emicons_thumb.jpg" class="img-responsive" alt="icon archive thumbnail"/></a>
+ </div>
+</div> <!-- end col-xs6 -->
+<div class="col-sm-6 col-md-4 wow fadeInUp animated" data-wow-delay=".4s">
+  <div class="view">
+   <a href="#" class="info" data-desc="5"><img src="images/work/thumbs/ln_thumb.jpg" class="img-responsive" alt="lovely nails thumbnail"/></a>
+ </div>
+</div> <!-- end col-xs6 -->
+<div class="col-sm-6 col-md-4 wow fadeInUp animated" data-wow-delay=".5s">
+ <div class="view">
+   <a href="#" class="info" data-desc="6"><img src="images/work/thumbs/tdv1_thumb.jpg" class="img-responsive" alt="portfolio version 1 thumbnail"/></a>
+ </div> 
+</div> <!-- end col-xs6 -->
+</div> <!-- end row -->
+</div> <!-- end works -->
+</div> <!-- end container -->
+<!-- descrition section -->
+<div class="container">
+  <div class="row">
+   <div class="descSection hide">
+    <div class="alldescriptions">
+     <!-- start seperate descriptions -->
+     <div id="desc1" class="description">
+      <div class="col-md-8">
+
+        <div id="my-carousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#my-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#my-carousel" data-slide-to="1"></li>
+            <li data-target="#my-carousel" data-slide-to="2"></li>
+            <li data-target="#my-carousel" data-slide-to="3"></li>
+            <li data-target="#my-carousel" data-slide-to="4"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="images/work/aurora/site1.jpg" class="img-responsive" alt="site 1">
+            </div>
+            <div class="item">
+              <img src="images/work/aurora/site2.jpg" class="img-responsive" alt="site 2">
+            </div>
+            <div class="item">
+              <img src="images/work/aurora/site3.jpg" class="img-responsive" alt="site 3">
+            </div>
+            <div class="item">
+              <img src="images/work/aurora/loginpage.jpg" class="img-responsive" alt="login page">
+            </div>
+            <div class="item">
+              <img src="images/work/aurora/backend.jpg" class="img-responsive" alt="backend page">
+            </div>
+
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#my-carousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#my-carousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+
+      </div>
+      <div class="col-md-4">
+       <p class="proj-title">Custom CMS</p>
+       <p class="proj-type">Role: Developer & Designer</p>
+       <p>Created three website design templates for the same fictitious company that all have the same content from the custom backend CMS built. Created a database for the content and used PHP and SQL queries to pull the information from the databases. Template 1 is using responsive design while the other two templates are static pages.</p>
+       <p>Used: HTML, CSS, PHP, MySql, JavaScript, jQuery and AJAX. Photoshop for design.</p>
+       <a href="http://tairemadailey.com/istudy/" target="_blank"><div class="button1">Visit Website</div></a>
+       <a href="#"><div class="button1 fecha">Close Project</div></a>
+     </div>
+   </div>
+   <div id="desc2" class="description">
+    <div class="col-md-8">
+      <img src="images/work/pc-p.jpg" class="img-responsive" alt="pink candy designs">
+    </div>
+    <div class="col-md-4">
+     <p class="proj-title">Pink Candy Designs</p>
+     <p class="proj-type">Role: Developer & Designer </p>
+     <p>Built a custom wordpress theme. Created the theme design in photoshop and sliced accordingly to build in my CSS. Also in the header is a PHP script that allows me to pull that latest two images from the custom coppermine theme created that is the gallery page. As well as a jQuery image slider that shows multiple images.</p>
+     <p>Used: HTML, CSS, PHP, JavaScript, and jQuery. Photoshop for design.</p>
+     <a href="http://pinkcandydesigns.net/" target="_blank"><div class="button1">Visit Website</div></a>
+     <a href="#"><div class="button1 fecha">Close Project</div></a>
+   </div>
+ </div>
+ <div id="desc3" class="description">
+  <div class="col-md-8">
+   <img src="images/work/pcgg-p.jpg" class="img-responsive" alt="pink candy designs gallery">
+ </div>
+ <div class="col-md-4">
+   <p class="proj-title">Pink Candy Gallery</p>
+   <p class="proj-type">Role: Developer & Designer </p>
+   <p>Custom coppermine gallery theme. The gallery is made in PHP. The theme was built in photoshop and sliced accordingly to build in my css. In the header is a jQuery slider that shows multiple images. </p>
+   <p>Used: HTML, CSS, JavaScript, and jQuery. Photoshop for design.</p>
+   <a href="http://pinkcandydesigns.net/gallery" target="_blank"><div class="button1">Visit Website</div></a>
+   <a href="#"><div class="button1 fecha">Close Project</div></a>
+ </div>
+</div>
+<div id="desc4" class="description">
+  <div class="col-md-8">
+   <img src="images/work/emicons.jpg" class="img-responsive" alt="icon archive">
+ </div>
+ <div class="col-md-4">
+   <p class="proj-title">Icon Archive</p>
+   <p class="proj-type">Role: Developer & Designer</p>
+   <p>Basic HTML site built. The images and design was built in photoshop. The icons created on the page were done in photoshop and the way that they are displayed is by using a php script that allows you to sort icons and display in categories and set how many to display on a page.</p>
+   <p>Used: HTML, CSS, and PHP. Photoshop for design.</p>
+   <a href="http://tairemadailey.com/icons/" target="_blank"><div class="button1">Visit Website</div></a>
+   <a href="#"><div class="button1 fecha">Close Project</div></a>
+ </div>
+</div>
+<div id="desc5" class="description">
+  <div class="col-md-8">
+   <img src="images/work/ln-p.jpg" class="img-responsive" alt="lovely nails">
+ </div>
+ <div class="col-md-4">
+   <p class="proj-title">Lovely Nails</p>
+   <p class="proj-type">Role: Developer & Designer</p>
+   <p>One page HTML site built for a nail salon in Milford, Ma. The navigation is made with CSS sprites. The home page is using a jQuery slider. The whole site is on one page using jQuery to switch out the content according to which link in the navigation is clicked. The pages were saved as PHP files to be able to use includes.</p>
+   <p>Used: HTML, CSS, PHP, JavaScript, and jQuery. Photoshop and Illustrator for design.</p>
+   <a href="http://tairemadailey.com/ln/" target="_blank"><div class="button1">Visit Website</div></a>
+   <a href="#"><div class="button1 fecha">Close Project</div></a>
+ </div>
+</div>
+<div id="desc6" class="description">
+  <div class="col-md-8">
+   <img src="images/work/tdv1.jpg" class="img-responsive" alt="portfolio version 1">
+ </div>
+ <div class="col-md-4">
+   <p class="proj-title">portfolio version 1</p>
+   <p class="proj-type">Role: Developer & Designer</p>
+   <p>This is the first version of my portfolio built. This site had my first version of my logo and color palette. It was built in PHP to be able to use includes. For the portfolio, jQuery, CSS3, Isotope filter was used to sort out each item by category and gives an overlay of each project before you click on it. Also throughout the site, font awesome icons were used.</p>
+   <p>Used: HTML, CSS, PHP, JavaScript, and jQuery. Photoshop and illustrator for design.</p>
+   <a href="http://tairemadailey.com/v1/" target="_blank"><div class="button1">Visit Website</div></a>
+   <a href="#"><div class="button1 fecha">Close Project</div></a>
+ </div>
+</div>
+
+</div> <!-- end alldescriptions -->
+</div> <!-- end descSection -->
+</div> <!-- end row -->
+
+</div> <!-- end container -->
+</section>
+<section id="contact" data-speed="2">
+ <div class="container">
+  <div class="row">
+   <div class="col-md-8 wow slideInLeft animated" data-wow-delay=".2s">
+    <h2 class="cTitle">Let's talk</h2>
+    <p class="cInfo">I’m currently available for work and remote freelance. If you think I am suitable for your project or if you’d just like to say hello, feel free to contact me.</p>
+    <p><i class="fa fa-phone fa-lg space"></i> <a href="tel:1-617-839-9407"> 617.839.9407</a></p>
+    <p><i class="fa fa-envelope fa-lg space"></i> <a href="mailto:tai@tairemadailey.com"> tai@tairemadailey.com</a></p>
+  </div>
+  <div class="col-md-4 wow slideInRight animated" data-wow-delay=".2s">
+    <h4 class="cSocial">let's connect</h4>
+    <p>
+      <a href="https://www.facebook.com/tairemadailey" target="_blank" data-toggle="tooltip" title="Facebook" data-placement="left"><i class="fa fa-facebook-square fa-2x space"></i></a>  
+
+      <a href="https://twitter.com/tairemadailey" target="_blank" data-toggle="tooltip" title="Twitter" data-placement="bottom"><i class="fa fa-twitter-square fa-2x space"></i></a>  
+
+      <a href="https://www.linkedin.com/in/tairema" target="_blank" data-toggle="tooltip" title="LinkedIn" data-placement="bottom"><i class="fa fa-linkedin-square fa-2x space"></i></a>
+
+      <a href="https://github.com/tairemad" target="_blank" data-toggle="tooltip" title="GitHub" data-placement="right"><i class="fa fa-github-square fa-2x"></i></a>
+    </p>
+  </div>
+</div>
+</section>
+<section>
+ <div class="row">
+  <div class="col-md-12">
+   <footer>Copyright &copy; <script type="text/javascript">var d = new Date();
+   var year = d.getFullYear(); document.write(year);</script> - Made with <i class="fa fa-heart"></i> by Tairema Dailey - Front-End Developer Online Portfolio. All Rights Reserved.</footer>
+ </div>
+</div>
+</section>
+<div class="hide">
+  <script type="text/javascript">
+    <!--//--><![CDATA[//><!--
+    var images = new Array()
+    function preload() {
+      for (i = 0; i < preload.arguments.length; i++) {
+        images[i] = new Image()
+        images[i].src = preload.arguments[i]
+      }
+    }
+    preload(
+      "images/work/thumbs/cms_thumb.jpg",
+      "images/work/thumbs/pc_thumb.jpg",
+      "images/work/thumbs/pcgg_thumb.jpg",
+      "images/work/thumbs/emicons_thumb.jpg",
+      "images/work/thumbs/ln_thumb.jpg",
+      "images/work/thumbs/tdv1_thumb.jpg",
+      "images/work/pc-p.jpg",
+      "images/work/pcgg-p.jpg",
+      "images/work/emicons.jpg",
+      "images/work/ln-p.jpg",
+      "images/work/tdv1.jpg",
+      "images/work/aurora/backend.jpg",
+      "images/work/aurora/loginpage.jpg",
+      "images/work/aurora/site1.jpg",
+      "images/work/aurora/site2.jpg",
+      "images/work/aurora/site3.jpg"
+      )
+    //--><!]]>
+    </script>
+  </div>
+
+  <script type="text/javascript" src="js/modernizr-latest.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script type="text/javascript" src="js/wow.min.js"></script>
+  <script type="text/javascript" src="js/compressed.js"></script>
+  <script type="text/javascript" src="js/main.min.js"></script>
+  <script type="text/javascript">
+  var wow = new WOW(
+  {
+    boxClass:     'wow',      // animated element css class (default is wow)
+    animateClass: 'animated', // animation css class (default is animated)
+    offset:       0,          // distance to the element when triggering the animation (default is 0)
+    mobile:       false        // trigger animations on mobile devices (true is default)
+  }
+  );
+  wow.init();
+  </script>
+  
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43258629-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  
+
+</body>
+</html>
+	

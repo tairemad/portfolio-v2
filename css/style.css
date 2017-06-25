@@ -1,23 +1,18 @@
-/*
-Theme Name: Tairema Dailey Portfolio
-Theme URI: http://tairemadailey.com
-Author: Tairema Dailey
-Author URI: http://tairemadailey.com
-Description: Portfolio Site for Tairema Dailey
-Version: 1.0
-Tags: Web Design, Web Developer, Front-End Developer, Web Designer 
-
-*/
-
-
 /*global*/
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 
 html,body{
 	width: 100%;
 	height: 100%;
 	padding: 0;
 	margin: 0;
-    font-weight: 100;
+    font-weight: 200;
 	letter-spacing:2px;
 }
 
@@ -38,8 +33,8 @@ b{font-weight: 200;}
 
 /*backgrounds*/
 
-#home { 
-    background: url('../images/home.jpg') 50% 0 fixed; 
+#home {
+    background: url('../images/home.jpg') 50% 0 fixed;
     color: #fff;
     height: auto;  
     margin: 0 auto; 
@@ -48,6 +43,7 @@ b{font-weight: 200;}
     box-shadow: 0 0 16px rgba(0,0,0,0.8);
     padding: 100px 0;
 }
+
 #about { 
     background: url('../images/ab.jpg') 50% 0 fixed; 
     height: auto;  
@@ -80,6 +76,12 @@ b{font-weight: 200;}
     color: #fff;
     font-size: 18px;
 }
+#footer{
+    background: #fff;
+    color: #000;
+}
+
+
 
 /*home section cont...*/
 
@@ -101,11 +103,10 @@ b{font-weight: 200;}
     font-weight: 100;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
-    -ms-animation: blink 0.7s infinite;
     -o-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
 }
-@-keyframes blink{
+@keyframes blink{
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
@@ -160,6 +161,7 @@ b{font-weight: 200;}
 a:link {text-decoration:none; color: #fff;}
 a:visited {text-decoration:none; color: #fff;}
 a:hover {color:#ffd200;}
+a.hightlighted{ text-decoration: none; color:#ffd200;}
 .space{margin-right: 5px;}
 footer{font-size: 14px; margin-top: 40px; margin-bottom: 10px; text-align: center; bottom:0; font-weight: 200;}
 .sidesL{margin-left: 20px;}
@@ -244,6 +246,19 @@ input[type="button"]:active,
     margin: 0 auto;
 }
 
+
+@media screen and (max-device-width: 768px) {
+    #home{
+        padding: 90px 14px 100px;
+    }
+    #about, #contact{
+        padding: 50px 0;
+    }
+    .intro{
+        margin-top: 30px;
+        font-size: 30px;
+    }
+}
 
 
 

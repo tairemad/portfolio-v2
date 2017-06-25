@@ -22,7 +22,7 @@ $(document).ready(function() {
 
   // welcome ** typed.js by http://www.mattboldt.com/ **
 
-  $(function() {
+
     $(".welcomeText").typed({
       strings: ["Hello.", "Olá.", "¡Hola!", "Bonjour.", "Ciào."],
       typeSpeed: 30, // typing speed
@@ -30,15 +30,13 @@ $(document).ready(function() {
       loop: true, // loop on or off (true or false)
       loopCount: false, // number of loops, false = infinite
     });
-  });
-
-  //nav
 
 
+    //nav
 
   $(".navbar").hide();
 
-  $(function() {
+
     $(window).scroll(function() {
       if ($(this).scrollTop() > 150) {
         $('.navbar').fadeIn();
@@ -46,7 +44,7 @@ $(document).ready(function() {
         $('.navbar').fadeOut();
       }
     });
-  });
+
 
 
 
