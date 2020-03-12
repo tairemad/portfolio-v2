@@ -2,8 +2,6 @@
 
 $(document).ready(function() {
 
-  $window = $(window);
-
   $('section[data-type="background"]').each(function() {
     var $scroll = $(this);
 
@@ -44,6 +42,9 @@ $(document).ready(function() {
         $('.navbar').fadeOut();
       }
     });
+
+
+
 
 
 
